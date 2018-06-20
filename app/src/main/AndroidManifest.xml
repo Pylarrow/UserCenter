@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.idthk.usercenter">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission
+        android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        tools:ignore="ProtectedPermissions"></uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission
+        android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <!-- 蓝牙使用 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 扫描使用 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 手机加速 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- Android6.0 蓝牙扫描才需要-->
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--用于提高GPS定位速度-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    //用户中心读取用户名和密码的权限,在另外app定义
+    <uses-permission android:name="com.idthk.usercenter.contentporvider.provider" />
+
+    <application
+        android:name=".APP"
+        android:allowBackup="true"
+        android:icon="@drawable/usercenter"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.FullScreen">
+        <!--  <activity
+              android:name=".activity.MainActivity"
+              android:configChanges="orientation"
+              android:screenOrientation="landscape"
+              >
+
+              &lt;!&ndash; <intent-filter>
+                   <action android:name="android.intent.action.MAIN" />
+
+                   <category android:name="android.intent.category.LAUNCHER" />
+               </intent-filter>&ndash;&gt;
+          </activity>-->
+        <activity
+            android:name=".activity.ForgetPassWordActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="landscape" />
+<!--        <activity
+            android:name=".activity.UserCenterActivity"
+            android:screenOrientation="landscape"/>-->
+        <activity
+            android:name=".permission.acp.AcpActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".activity.NewUserCenterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.user"
+            android:windowSoftInputMode="adjustResize" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activity.UserRegisActivity"
+            android:screenOrientation="landscape" />
+      <!--  <activity android:name=".permission.PermissionsActivity" />-->
+        <activity
+            android:name=".activity.NewLoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityDialog">
+
+        </activity>
+        <activity
+            android:name=".activity.PayChoiceActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/myActivityDialog">
+
+        </activity>
+        <activity
+            android:name=".activity.ParentalVericatActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/myActivityDialog">
+
+        </activity>
+
+        <activity
+            android:name=".activity.NewForgetPasswordActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityDialog">
+
+        </activity>
+        <activity
+            android:name=".activity.NewRegisterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ActivityDialog">
+
+        </activity>
+        <activity
+            android:name=".activity.PayViewActivity"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".activity.AppOutActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/myActivityDialog">
+
+        </activity>
+        <activity
+            android:name=".activity.RenewActivity"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity android:name=".activity.NextStep1Activity"
+            android:screenOrientation="landscape"
+            >
+
+        </activity>
+        <activity android:name=".activity.NextStep2Activity"
+            android:screenOrientation="landscape"
+            >
+
+        </activity>
+        <activity android:name=".activity.NextStep3Activity"
+            android:screenOrientation="landscape"
+            >
+
+        </activity>
+        <activity android:name=".activity.NextStep4Activity"
+            android:screenOrientation="landscape"
+            >
+
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.idthk.usercenter.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name=".contentprovider.MyContentPorvider"
+            android:authorities="com.idthk.usercenter.contentporvider.provider"
+            android:exported="true"></provider>
+
+
+        <receiver
+            android:name=".broadcastreceiver.BootBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <category android:name="android.intent.category.HOME" />
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

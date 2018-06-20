@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/grade_select" android:state_selected="true"/> //选中后的选项，其余两个为未选中和默认的
+    <item android:drawable="@drawable/grade_noselect" android:state_selected="false"/>
+    <item android:drawable="@drawable/grade_noselect"/>
+</selector>

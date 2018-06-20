@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/right">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grade_detail"
+        android:textSize="@dimen/text_size_14sp"
+        android:textColor="@color/color_4E6D92"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="70px"
+        android:layout_marginLeft="90px"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="122px"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="180px"
+            android:layout_height="246px"
+            android:layout_marginLeft="68px"
+            android:background="@drawable/selector_new_grade">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/first"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5-8岁"
+                android:textSize="12sp"
+                android:textColor="@color/color_4E6D92"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10px"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_middle"
+            android:layout_width="180px"
+            android:layout_height="246px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/selector_new_grade">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/middle"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9-14岁"
+                android:textSize="12sp"
+                android:textColor="@color/color_4E6D92"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10px"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_high"
+            android:layout_width="180px"
+            android:layout_height="246px"
+            android:layout_marginLeft="30px"
+            android:background="@drawable/selector_new_grade">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/high"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15岁+"
+                android:textSize="12sp"
+                android:textColor="@color/color_4E6D92"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10px"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="238px"
+        android:layout_height="56px"
+        android:background="@drawable/shape_button_save"
+        android:text="@string/save_desc"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="24px"
+        android:layout_below="@+id/ll_content"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

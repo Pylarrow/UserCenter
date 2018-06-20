@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">用户中心</string>
+    <string name="user_name">用户名</string>
+    <string name="app_modify">年龄修改</string>
+    <string name="boy_name">小孩昵称</string>
+    <string name="modify_name">修改昵称</string>
+    <string name="modify_photo">修改头像</string>
+    <string name="from_photo">从相册选择照片</string>
+    <string name="cature_photo">拍照</string>
+    <string name="cancel">取消</string>
+    <string name="inputcode">请输入手机号码/邮箱</string>
+    <string name="new_regis">新用户注册</string>
+    <string name="send_code">发送验证码</string>
+    <string name="regis">注册</string>
+    <string name="out_login">退出账号</string>
+    <string name="login">登录</string>
+    <string name="new_userregin">新用户注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="find_password">找回密码</string>
+    <string name="reset_password">重置密码</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="top_title">用户中心</string>
+    <string name="tel_desc">手机</string>
+    <string name="email_desc">邮箱</string>
+    <string name="grade_desc">级别</string>
+    <string name="device_desc">设备信息</string>
+    <string name="tv_sex">性别</string>
+    <string name="age_desc">年龄</string>
+    <string name="modify_desc">修改</string>
+    <string name="bind_phone_desc">手机号码</string>
+    <string name="bind_email_desc">邮箱绑定</string>
+    <string name="one_grade_desc">初级</string>
+    <string name="two_grade_desc">中级</string>
+    <string name="three_grade_desc">高级</string>
+    <string name="renew_desc">续费</string>
+    <string name="renew_detail_info_desc">续费详情信息</string>
+    <string name="renew_info">
+        当产品使用超过有效期(2018/8/9-2019/8/9)如需要下载最新的资料，需要
+        支付一定的费用，如不需要下载，可继续使用本产品的现有服务，公司提供按年续费，
+        标准如下：
+    </string>
+    <string name="grade_detail">我们根据资料的难易程度把学习内容分成了三个级别,请根据用户自己实际情况选择级别。</string>
+    <string name="man_desc">男</string>
+    <string name="girl_desc">女</string>
+    <string name="not_login_desc">未登录</string>
+    <string name="not_login">还未登录，请先登录</string>
+    <string name="forget_password_desc">忘记密码</string>
+    <string name="login_desc">登录</string>
+    <string name="register">注册</string>
+    <string name="new_password_desc">请输入新密码(8-16位)</string>
+    <string name="vercode_desc">验证码</string>
+    <string name="bt_reset_password_desc">重置密码</string>
+    <string name="phone_email_notnull_desc">手机号或邮箱不能为空</string>
+    <string name="pay_choice_desc">请选择一下支付方式</string>
+    <string name="shengyu_desc">剩余</string>
+    <string name="pay_desc">支付</string>
+    <string name="pay_for_wx">微信支付</string>
+    <string name="pay_for_alipay">支付宝支付</string>
+    <string name="phone_or_email_tips">手机号或邮箱不能为空</string>
+    <string name="register_age_desc">年龄不能为空</string>
+    <string name="register_password_desc">密码不能为空</string>
+    <string name="register_vericode_desc">验证码有误请重新输入</string>
+    <string name="register_vericode_notnull_desc">验证码不能为空</string>
+    <string name="register_username_desc">手机号或邮箱不能为空</string>
+    <string name="please_input_right_phone">请输入正确的手机号或邮箱</string>
+    <string name="password_vericate_tips">密码为8-16位字母数字组合</string>
+    <string name="pay">支付</string>
+    <string name="please_login">请登录</string>
+    <string name="parent_vericate">家长验证</string>
+    <string name="phone_or_email">手机号/邮箱</string>
+    <string name="_8_16_password">8-16位密码</string>
+    <string name="vericate">验证</string>
+    <string name="please_input_username">请输入手机号码/邮箱</string>
+    <string name="send_sms">发送验证码</string>
+    <string name="_8_16_password_input">请输入密码(8-16位)</string>
+    <string name="phone_not_null">手机号不能为空</string>
+    <string name="input_right_phone">请输入有效的手机号格式</string>
+    <string name="input_right_email">请输入正确的邮箱格式</string>
+    <string name="show_junior">初级</string>
+    <string name="show_intermediate">中级</string>
+    <string name="show_senior">高级</string>
+    <string name="exit_login">退出登录</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="validate_success">验证成功</string>
+    <string name="validity_desc">有效期限:</string>
+    <string name="rmb">¥</string>
+    <string name="preyear">/ 年</string>
+    <string name="sure_exit_app_desc">您确定要退出登录吗？</string>
+    <string name="sure">确定</string>
+    <string name="usd">$</string>
+    <string name="sencond_desc">秒</string>
+    <string name="send_sms_error_info">错误信息</string>
+    <string name="alreadly_register_desc">该账号已经注册了</string>
+    <string name="userinfo_error">用户信息错误</string>
+    <string name="not_register_user">不是注册用户</string>
+    <string name="bind_email_sucess">绑定邮箱成功</string>
+    <string name="modify_grade_sucess">修改等级成功</string>
+    <string name="login_sucess">登录成功</string>
+    <string name="bind">绑定</string>
+    <string name="username_error">用户名错误</string>
+    <string name="password_error">密码错误</string>
+    <string name="sure_exit_system">您确定要退出用户中心吗?</string>
+    <string name="age_group_desc">年龄段</string>
+    <string name="sex_desc">性别</string>
+    <string name="nickname_desc">昵称:</string>
+    <string name="modify_nickname_desc">修改昵称</string>
+    <string name="save_desc">保存</string>
+    <string name="nickname_notnull_desc">昵称不能为空</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_agegroup_success">保存年龄段成功</string>
+    <string name="save_sex_success">保存性别成功</string>
+    <string name="save_phone_success">保存手机号成功</string>
+    <string name="save_grade_success">保存等级成功</string>
+    <string name="please_input_name">请输入用户名</string>
+    <string name="perfect_user_info">完善用户资料</string>
+    <string name="next_step">下一步</string>
+    <string name="please_input_usersex">请输入使用者性别</string>
+    <string name="study_desc">请根据用户实际情况选择学习内容</string>
+    <string name="open_usercenter">开启畅游之旅</string>
+    <string name="activate_time">激活时间:</string>
+    　　
+    <string-array name="age">
+        <item>5-9岁</item>
+        <item>10-14岁</item>
+        <item>15-20岁</item>
+        <item>21-30岁</item>
+        <item>30-50岁</item>
+        <item>50+</item>
+    </string-array>
+
+
+</resources>

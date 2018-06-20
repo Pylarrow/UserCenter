@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/next_step_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sex_bg">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50px"
+                android:text="@string/please_input_usersex"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52px"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_mail"
+                        android:layout_width="128px"
+                        android:layout_height="128px"
+                        android:background="@drawable/selector_step_mail" />
+
+                    <TextView
+                        android:id="@+id/tv_mail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10px"
+                        android:text="@string/man_desc"
+                        android:textColor="@color/white"
+                        android:textSize="24px" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_femail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="132px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_femail"
+                        android:layout_width="128px"
+                        android:layout_height="128px"
+                        android:background="@drawable/selector_step_femail" />
+
+                    <TextView
+                        android:id="@+id/tv_femail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10px"
+                        android:text="@string/girl_desc"
+                        android:textColor="@color/white"
+                        android:textSize="24px" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

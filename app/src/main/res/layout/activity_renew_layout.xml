@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <RelativeLayout
+        android:id="@+id/rl_device"
+        android:layout_width="match_parent"
+        android:layout_height="280px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84px"
+        android:layout_marginRight="84px"
+        android:layout_marginTop="72px"
+        android:background="@drawable/group16"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22px"
+            android:layout_marginTop="2px"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_xlh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="S  N  :  5  6  4  H  3  D"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv_expired"
+            android:layout_width="234px"
+            android:layout_height="146px"
+            android:layout_centerInParent="true"
+            android:src="@drawable/overdue"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20px"
+            android:layout_marginRight="20px"
+            android:textColor="@color/color_end_time"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bt_renew"
+            android:layout_width="match_parent"
+            android:layout_height="68px"
+            android:layout_marginBottom="100px"
+            android:layout_marginLeft="84px"
+            android:layout_marginRight="84px"
+            android:background="@color/top_color"
+            android:text="@string/renew_desc"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_info_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/toolsbar"
+            android:layout_width="match_parent"
+            android:layout_height="67px"
+            android:background="@color/top_color"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:padding="15px"
+                android:paddingLeft="20px"
+                android:layout_centerVertical="true"
+                android:src="@drawable/left_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="@string/renew_desc"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/text_size_22sp" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_color"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="16px"
+                android:text="@string/renew_detail_info_desc"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/linearLayout"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:layout_alignStart="@+id/linearLayout"
+                android:paddingBottom="18px"
+                android:paddingLeft="40px"
+                android:paddingRight="24px"
+                android:text="@string/renew_info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20px">
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/top_color"
+                    android:textSize="70sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_pic"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_pay_wx"
+                    android:layout_width="0dp"
+                    android:layout_height="68px"
+                    android:layout_marginLeft="50px"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_pay_select"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="44px"
+                        android:layout_height="44px"
+                        android:layout_marginLeft="18px"
+                        android:src="@drawable/icon_wx" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12px"
+                        android:text="@string/pay_for_wx"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pay_alipay"
+                    android:layout_width="0dp"
+                    android:layout_height="68px"
+                    android:layout_marginLeft="16px"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_pay_select"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="44px"
+                        android:layout_height="44px"
+                        android:layout_marginLeft="18px"
+                        android:src="@drawable/icon_alipay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16px"
+                        android:text="@string/pay_for_alipay"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_pay_paypal"
+                    android:layout_width="0dp"
+                    android:layout_height="68px"
+                    android:layout_marginLeft="16px"
+                    android:layout_marginRight="54px"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_pay_select"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="148px"
+                        android:layout_height="38px"
+                        android:layout_marginLeft="16px"
+                        android:src="@drawable/icon_paypal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_info_renew"
+                android:layout_width="match_parent"
+                android:layout_height="68px"
+                android:layout_below="@+id/ll_pay"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="54px"
+                android:layout_marginTop="46px"
+                android:background="@color/red"
+                android:text="@string/renew_desc"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

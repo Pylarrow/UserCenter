@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_4DBEF2"
+    >
+
+    <RelativeLayout
+        android:id="@+id/toolsbar"
+        android:layout_width="match_parent"
+        android:layout_height="67px"
+        android:gravity="center"
+        android:background="@color/top_color">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/perfect_user_info"
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/text_size_22sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_ball"
+        android:layout_width="354px"
+        android:layout_height="362px"
+        android:background="@drawable/step4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="54px"
+        />
+    
+    <Button
+        android:id="@+id/open_usercenter"
+        android:layout_width="228px"
+        android:layout_height="56px"
+        android:background="@drawable/open_usercent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26px"
+        android:text="@string/open_usercenter"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_24sp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

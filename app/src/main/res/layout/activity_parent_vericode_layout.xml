@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rect_shape"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:background="@drawable/shape_parent_vericode_top"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parent_vericate"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="38px"
+            />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_parent_vericode_close"
+            android:layout_alignParentRight="true"
+            android:paddingRight="36px"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54px"
+        android:layout_marginLeft="156px"
+        android:layout_marginRight="156px"
+        android:layout_marginTop="34px"
+        android:background="@drawable/shape_relation"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/iv_username"
+            android:layout_width="50px"
+            android:layout_height="match_parent"
+            android:src="@drawable/username_icon"
+            />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/phone_or_email"
+            android:layout_toRightOf="@+id/iv_username"
+            android:textSize="@dimen/text_size_18sp"
+            android:singleLine="true"
+            android:layout_marginLeft="10px"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_password"
+        android:layout_width="match_parent"
+        android:layout_height="54px"
+        android:layout_marginLeft="156px"
+        android:layout_marginRight="156px"
+        android:layout_marginTop="34px"
+        android:background="@drawable/shape_relation">
+
+        <ImageView
+            android:id="@+id/iv_password"
+            android:layout_width="50px"
+            android:layout_height="match_parent"
+            android:src="@drawable/password" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_toRightOf="@+id/iv_password"
+            android:background="@null"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:hint="@string/_8_16_password" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_parent_vericode"
+        android:layout_width="448px"
+        android:layout_height="66px"
+        android:text="@string/vericate"
+        android:background="@color/color_3EA8FE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40px"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="42px"
+        />
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/right">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="100px"
+            android:text="@string/age_desc"
+            android:textSize="@dimen/text_size_24sp"
+            android:textColor="@color/color_363636"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_one"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="100px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_two"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="16px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_three"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="16px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18px"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_four"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="100px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_five"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="16px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_six"
+                android:layout_width="170px"
+                android:layout_height="108px"
+                android:layout_marginTop="18px"
+                android:layout_marginLeft="16px"
+                android:background="@drawable/selector_age_group"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/text_size_20sp"
+                    android:textColor="@color/color_333333"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="238px"
+            android:layout_height="56px"
+            android:background="@drawable/shape_button_save"
+            android:text="@string/save_desc"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

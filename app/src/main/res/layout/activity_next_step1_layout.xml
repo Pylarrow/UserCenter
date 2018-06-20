@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/user_bg"
+    >
+    <include layout="@layout/next_step_layout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_input_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20sp"
+        android:layout_marginTop="96px"
+        android:layout_marginLeft="268px"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_edit_username"
+        android:layout_width="510px"
+        android:layout_height="50px"
+        android:background="@drawable/gray_rect_shape"
+        android:layout_marginLeft="258px"
+        android:layout_marginTop="14px"
+        >
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="8dp"
+            android:background="@null"
+            android:focusable="false"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

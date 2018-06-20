@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="SegmentButton">
+        <attr name="segmentButtonTextPressColor" format="color" />
+        <attr name="segmentButtonTextNormalColor" format="color" />
+        <attr name="segmentButtonTextSize" format="dimension" />
+        <!-- Button内容以分号隔开 -->
+        <attr name="segmentButtonButtonContent" format="string" />
+    </declare-styleable>
+
+    <!-- 圆形图片 -->
+    <declare-styleable name="define_btn">
+        <attr name="android:text" />
+        <attr name="bgcolor" format="color" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="CircleImageView">-->
+        <!--<attr name="border_width" format="dimension" />-->
+        <!--<attr name="border_color" format="color" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="RoundImageView">
+        <attr name="b_width" format="dimension" />
+        <attr name="b_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircleLayout">
+        <attr name="radius" format="dimension" />
+        <attr name="offset" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView1">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CustomCheckImageView">
+        <attr name="checkState" format="boolean" />
+        <attr name="checkOn" format="reference"/>
+        <attr name="checkOff" format="reference"/>
+    </declare-styleable>
+</resources>

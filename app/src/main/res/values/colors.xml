@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/top_color</color>
+    <color name="colorPrimaryDark">@color/top_color</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">@color/top_color</color>
+    <color name="colorgrand">#dedbdc</color>
+    <color name="main_frame">#979797</color>
+
+    <!--<color name="colorPrimaryDark">#18b4ed</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="red">#FF0000</color>
+    <color name="light_blue">#6593CB</color>
+    <color name="divider">#cfcfcf</color>
+
+    <color name="theme_color">#fcd538</color>
+    <color name="text_title">#323232</color>
+    <color name="text_second_title">#666666</color>
+    <color name="theme_bg_color">#e5e5e5</color>
+    <color name="button_bg_color">#caa200</color>
+    <color name="new_theme_color">#3c3631</color>
+
+    <color name="warning_msg_color">#A4A4A4</color>
+    <color name="text_view_color">#666666</color>
+    <color name="edit_text_color">#a4a4a4</color>
+    <color name="button_bg_color1">#fa9a00</color>
+    <color name="button_bg_color2">#ed9000</color>
+    <color name="button_color">#fdcb02</color>
+    <color name="text_view_color1">#323232</color>
+    <color name="layout_bg_color">#f5f5f5</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_red_finish">#ff4f4f</color>
+    <color name="bgColor_red_press_finish">#99ff4f4f</color>
+    <color name="text_color_normal">#666666</color>
+    <color name="text_color_select">#fe9a00</color>
+    <color name="text_hint_color">#c1c1c1</color>
+    <color name="background">#f5f5f5</color>
+    <color name="balance_color">#d2b787</color>
+    <color name="transparent">#00000000</color>
+    <color name="txt_desc">#333333</color>
+
+
+    <color name="color_c5a8">#c5a888</color>
+    <color name="color_d2b787">#d2b787</color>
+
+    <color name="color_333">#333333</color>
+    <color name="color_e83">#e83535</color>
+    <color name="color_e5e5">#e5e5e5</color>
+    <color name="color_bf7">#fffbf7</color>
+
+    <color name="color_d9b">#d1bd9b</color>
+
+    <drawable name="theme_item_checked_bg">@color/theme_bg_color</drawable>
+    <drawable name="theme_item_normol_bg">@color/white</drawable>
+    <color name="color_bg">#222B3A</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_dcc7a3">#dcc7a3</color>
+    <color name="color_efefef">#efefef</color>
+
+    <color name="keyboard_button_color">#ffffff</color>
+    <color name="keyboard_button_press_color">#222222</color>
+    <color name="text_fe9a00">#fe9a00</color>
+    <drawable name="keyboard_button_bg">@color/keyboard_button_color</drawable>
+    <!--<drawable name="keyboard_button_press_bg">@drawable/icon_num_pressed</drawable>-->
+    <!--<drawable name="keyboard_button_press_bg">@color/keyboard_button_press_color</drawable>-->
+    <color name="color_999">#999999</color>
+    <color name="color_1a1c2d">#1a1c2d</color>
+    <color name="text_detail">#a4a4a4</color>
+    <color name="text_gray">#6a6a6a</color>
+    <color name="text_color">#323232</color>
+
+    <color name="top_color">#27BBFF</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="main_background">#CDCDCD</color>
+    <color name="man_selector_sex_color">#27BBFF</color>
+    <color name="color_end_time">#F0933d</color>
+    <color name="color_line">#EDEDED</color>
+    <color name="color_border">#36363622</color>
+    <color name="color_edit_hint">#151515</color>
+    <color name="pay_line_color">#D9D9D9</color>
+    <color name="color_FF2626">#FF2626</color>
+    <color name="color_left_full">#C1ECFF</color>
+    <color name="color_not_login_bg">#E3E3E3</color>
+    <color name="color_3EA8FE">#3EA8FE</color>
+    <color name="color_7FFFFFF">#7FFFFFFF</color>
+    <color name="color_88ff0000">#88ff0000</color>
+    <color name="color_4E6D92">#4E6D92</color>
+    <color name="color_363636">#363636</color>
+    <color name="color_ececec">#ECECEC</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_FFC400">#FFC400</color>
+    <color name="color_4DBEF2">#4DBEF2</color>
+
+</resources>

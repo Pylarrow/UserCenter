@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="62px"
+        android:layout_marginBottom="62px"
+        android:layout_marginRight="66px"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62px"
+            android:orientation="horizontal"
+            android:background="@color/top_color"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grade_desc"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="26px"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="114px"
+        android:layout_marginRight="108px"
+        android:layout_centerVertical="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_one_grade"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_one_grade"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:background="@drawable/selector_age_checkbox"
+                android:button="@null"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="@string/one_grade_desc"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_two_grade"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_two_grade"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:background="@drawable/selector_age_checkbox"
+                android:button="@null"
+                android:clickable="false"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="@string/two_grade_desc"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_three_grade"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_three_grade"
+                android:layout_width="30px"
+                android:layout_height="30px"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/selector_age_checkbox"
+                android:button="@null"
+                android:clickable="false"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="@string/three_grade_desc"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

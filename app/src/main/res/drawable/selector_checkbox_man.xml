@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/man_small" android:state_checked="true"/> //选中后的选项，其余两个为未选中和默认的
+    <item android:drawable="@drawable/man_small_gray" android:state_checked="false"/>
+    <item android:drawable="@drawable/man_small_gray"/>
+</selector>
